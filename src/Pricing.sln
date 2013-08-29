@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pricing", "Pricing\Pricing.csproj", "{5CCC763F-B2A3-4C02-8858-910E4FDAFEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pricing.Tests", "Pricing.Tests\Pricing.Tests.csproj", "{C00836AB-9A53-4F0F-B9E8-BA7F67CD88C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pricing.Rules", "Pricing.Rules\Pricing.Rules.csproj", "{44E1EDF2-484C-4553-BCEB-4BEB9457A89F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CCC763F-B2A3-4C02-8858-910E4FDAFEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCC763F-B2A3-4C02-8858-910E4FDAFEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCC763F-B2A3-4C02-8858-910E4FDAFEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCC763F-B2A3-4C02-8858-910E4FDAFEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00836AB-9A53-4F0F-B9E8-BA7F67CD88C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00836AB-9A53-4F0F-B9E8-BA7F67CD88C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00836AB-9A53-4F0F-B9E8-BA7F67CD88C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00836AB-9A53-4F0F-B9E8-BA7F67CD88C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E1EDF2-484C-4553-BCEB-4BEB9457A89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E1EDF2-484C-4553-BCEB-4BEB9457A89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E1EDF2-484C-4553-BCEB-4BEB9457A89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E1EDF2-484C-4553-BCEB-4BEB9457A89F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
