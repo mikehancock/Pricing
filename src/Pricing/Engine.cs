@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Pricing
 {
-
-
     public class Engine
     {
         private readonly IEnumerable<IPriceRule> _priceRules;
