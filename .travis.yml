@@ -5,3 +5,4 @@ install:
  
 script:
   - xbuild CI.build
+  - nunit-console ./src/Pricing.Tests/bin/Debug/Pricing.Tests.dll -exclude Integration,NotWorkingOnMono
