@@ -22,9 +22,9 @@ namespace Pricing.Tests
             return this;
         }
 
-        internal PriceRuleBuilder AddBogof(string sku)
+        internal PriceRuleBuilder AddBogof(string sku, decimal price)
         {
-            _rules.Add(new BuyOneGetOneFree() { Sku = sku });
+            _rules.Add(new BuyOneGetOneFree() {Sku = sku, Price = price});
             return this;
         }
 

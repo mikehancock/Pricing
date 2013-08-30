@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContractPriceTests.cs" />
+    <Compile Include="BuyOneGetOneFreeTests.cs" />
     <Compile Include="DefaultPriceTests.cs" />
     <Compile Include="PerformanceTests.cs" />
     <Compile Include="ItemBuilder.cs" />
