@@ -31,7 +31,7 @@ namespace Pricing.Tests
 
             var timer = new Stopwatch();
             timer.Start();
-            engine.CalculatePrices(items, _customer.Object);
+            engine.ApplyRules(items, _customer.Object);
             timer.Stop();
             Console.WriteLine(timer.ElapsedMilliseconds);
             

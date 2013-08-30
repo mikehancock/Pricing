@@ -15,7 +15,7 @@ namespace Pricing
             _priceRules = priceRules.OrderBy(r => r.Priority);
         }
 
-        public IEnumerable<IPriceRule> CalculatePrices(IEnumerable<IItem> items, ICustomer customer)
+        public IEnumerable<IPriceRule> ApplyRules(IEnumerable<IItem> items, ICustomer customer)
         {
             return ApplyRules(items, customer, new List<IPriceRule>());
         }
