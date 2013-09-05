@@ -18,7 +18,7 @@ namespace Pricing.Tests
         {
             var priceBuilder = new PriceRuleBuilder().AddDefaultPriceRule("33333", 20.99m).AddBogof("33333", 20.99m);
             var engine = new Engine(priceBuilder.Rules);
-            var itemBuilder = new ItemBuilder().AddItem("33333", 3.99m).AddItem("33333", 3.99m);
+            var itemBuilder = new ItemBuilder().AddItem("33333", 3.99m, 1).AddItem("33333", 3.99m, 1);
 
             var actual = engine.ApplyRules(itemBuilder.Items, _customer.Object);
 

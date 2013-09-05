@@ -10,9 +10,9 @@ namespace Pricing.Tests
     {
         private IList<IItem> _items = new List<IItem>();
 
-        internal ItemBuilder AddItem(string sku, decimal unitCost)
+        internal ItemBuilder AddItem(string sku, decimal unitCost, decimal salesRank)
         {
-            _items.Add(new TestItem() { Rrp = 10.99m, Sku = sku, UnitCost = unitCost, SalesRank = 1.1111111m});
+            _items.Add(new TestItem() { Rrp = 10.99m, Sku = sku, UnitCost = unitCost, SalesRank = salesRank});
             return this;
         }
 

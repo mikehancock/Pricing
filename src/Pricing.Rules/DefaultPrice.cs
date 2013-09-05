@@ -11,7 +11,13 @@ namespace Pricing.Rules
     {
         public int Priority { get; set; }
 
-        public decimal Price { get; set; }
+        public decimal Price { get
+        {
+            var item = AppliedItems.First();
+            return item == null ? 0m : Math.Round(item.UnitCost * (item.SalesRank*1.3m), 2);
+        }
+            set { }
+        }
 
         public bool CanApply(IEnumerable<IItem> items, ICustomer customer)
         {

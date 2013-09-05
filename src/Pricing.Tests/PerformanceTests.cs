@@ -27,7 +27,7 @@ namespace Pricing.Tests
             _priceBuilder.AddBogof("11111", 20.99m);
             var engine = new Engine(_priceBuilder.Rules);
 
-            var items = _itemBuilder.AddItem("52345", 5.99m).AddItem("33333", 3.99m).AddItem("44444", 15.99m).Items;
+            var items = _itemBuilder.AddItem("52345", 5.99m, 1).AddItem("33333", 3.99m, 1).AddItem("44444", 15.99m, 1).Items;
 
             var timer = new Stopwatch();
             timer.Start();
